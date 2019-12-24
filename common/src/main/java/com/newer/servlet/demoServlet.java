@@ -14,7 +14,7 @@ import java.io.IOException;
 @WebServlet("/demoServlet")
 public class demoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("bbb");
+        System.out.println("bbbaa");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
